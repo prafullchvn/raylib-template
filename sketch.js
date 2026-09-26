@@ -14,7 +14,9 @@ const update = () => {
 }
 
 const draw = () => {
+    r.BeginDrawing();
 
+    r.EndDrawing();
 }
 
 const isRunning = () => {
